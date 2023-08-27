@@ -10,7 +10,7 @@ int pchar_error(unsigned int line_number, char *message);
  * pop_error - Prints pop error messages for empty stacks.
  * @line_number: Line number in script where error occured.
  *
- * Return: (EXIT_FAILURE) always.
+ * Return : (EXIT_FAILURE) always.
  */
 int pop_error(unsigned int line_number)
 {
@@ -22,7 +22,7 @@ int pop_error(unsigned int line_number)
  * pint_error - Prints pint error messages for empty stacks.
  * @line_number: Line number in Monty bytecodes file where error occurred.
  *
- * Return: (EXIT_FAILURE) always.
+ * Return : (EXIT_FAILURE) always.
  */
 int pint_error(unsigned int line_number)
 {
@@ -36,7 +36,7 @@ int pint_error(unsigned int line_number)
  * @line_number: Line number in Monty bytecodes file where error occurred.
  * @op: Operation where the error occurred.
  *
- * Return: (EXIT_FAILURE) always.
+ * Return : (EXIT_FAILURE) always.
  */
 int short_stack_error(unsigned int line_number, char *op)
 {

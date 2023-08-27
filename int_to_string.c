@@ -10,7 +10,7 @@ void fill_numbase_buff(unsigned int num, unsigned int base,
  * get_int - gets a character pointer to new string containing int
  * @num: number to convert to string
  *
- * Return: character pointer to newly created string. NULL if malloc fails.
+ * Return : character pointer to newly created string. NULL if malloc fails.
  */
 char *get_int(int num)
 {
@@ -39,7 +39,7 @@ char *get_int(int num)
  * _abs - gets the absolute value of an integer
  * @i: integer to get absolute value of
  *
- * Return: unsigned integer abs rep of i
+ * Return : unsigned integer abs rep of i
  */
 unsigned int _abs(int i)
 {
